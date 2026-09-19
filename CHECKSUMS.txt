@@ -1,0 +1,16 @@
+NCore Control 1.0.0 — Official SHA-256 Checksums
+
+NCore-Control-Setup-1.0.0.exe
+5bf8e8a47df6d45272844edf2e5fb5410e93977b2af7b909def1c8b3f4069f06
+
+NCore-Control-1.0.0-win-x64.zip
+f12989e4ea1598225f2ac0b41f03f470b00d2dfd55e4c6a84ed9b1a3cde48a72
+
+LICENSE-NCORE-CONTROL.txt
+aa1f980cffc51ffd32afa23d608c58994d4d074c537d4f86e6de7fa77cefaea6
+
+THIRD-PARTY-NOTICES.txt
+ad6707792696ae745f036d8d674e7cb880769230e9604f4e56ad133f5da89f13
+
+Release:
+https://github.com/boubeur/ncore-framework/releases/tag/control-v1.0.0
