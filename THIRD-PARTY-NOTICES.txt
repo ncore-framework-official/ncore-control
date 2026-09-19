@@ -1,0 +1,49 @@
+NCore Control — Third-Party Notices / Notices relatives aux composants tiers
+
+======================================================================
+ENGLISH
+======================================================================
+
+This file identifies third-party components redistributed as part of the official NCore Control Windows distribution. Each third-party component remains governed by its own license and terms.
+
+Microsoft.Web.WebView2
+Version used by NCore Control 1.0.0: 1.0.4191.47
+The exact license file supplied by the restored NuGet package is distributed with the NCore Control runtime as:
+Microsoft.Web.WebView2-LICENSE.txt
+
+Microsoft .NET / Windows Desktop Runtime
+NCore Control is published as a self-contained Windows .NET application. Runtime and WPF components required by the published application may therefore be embedded in or shipped with NCore Control binaries.
+The exact .NET license and third-party notice files from the build distribution are shipped with the NCore Control runtime as:
+DOTNET-LICENSE.txt
+DOTNET-THIRD-PARTY-NOTICES.txt
+
+nanos world / NANOS and SteamCMD
+NCore Control can acquire third-party server software from the third party’s own distribution channels. Those downloads are not original NCore software and remain governed by the applicable third-party terms. They are not relicensed by the NCore Control proprietary license.
+
+NCore Control proprietary materials are governed separately by LICENSE-NCORE-CONTROL.txt.
+
+The original third-party license texts included in the runtime remain authoritative for their respective components.
+
+======================================================================
+FRANÇAIS
+======================================================================
+
+Ce fichier identifie les composants tiers redistribués dans la distribution Windows officielle de NCore Control. Chaque composant tiers reste régi par sa propre licence et ses propres conditions.
+
+Microsoft.Web.WebView2
+Version utilisée par NCore Control 1.0.0 : 1.0.4191.47
+Le fichier de licence exact fourni par le package NuGet restauré est distribué avec le runtime NCore Control sous le nom :
+Microsoft.Web.WebView2-LICENSE.txt
+
+Microsoft .NET / Windows Desktop Runtime
+NCore Control est publié comme application .NET Windows autonome. Les composants runtime et WPF nécessaires à l’application publiée peuvent donc être intégrés aux binaires NCore Control ou distribués avec ceux-ci.
+Les fichiers exacts de licence .NET et de notices relatives aux composants tiers provenant de la distribution de build sont fournis avec le runtime NCore Control sous les noms :
+DOTNET-LICENSE.txt
+DOTNET-THIRD-PARTY-NOTICES.txt
+
+nanos world / NANOS et SteamCMD
+NCore Control peut acquérir des logiciels serveur tiers depuis les canaux de distribution propres aux tiers concernés. Ces téléchargements ne sont pas des logiciels originaux NCore et restent régis par les conditions tierces applicables. Ils ne sont pas placés sous la licence propriétaire NCore Control.
+
+Les éléments propriétaires NCore Control sont régis séparément par LICENSE-NCORE-CONTROL.txt.
+
+Les textes originaux des licences tierces inclus dans le runtime restent les textes de référence pour leurs composants respectifs.
