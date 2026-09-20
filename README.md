@@ -7,10 +7,10 @@
 <p align="center"><strong>Application Windows officielle pour installer et gérer des serveurs NANOS / nanos world.</strong></p>
 
 <p align="center">
-  <a href="https://github.com/boubeur/ncore-framework/releases/download/control-v1.0.0/NCore-Control-Setup-1.0.0.exe">
+  <a href="https://github.com/ncore-framework-official/ncore-control/releases/download/control-v1.0.0/NCore-Control-Setup-1.0.0.exe">
     <img src="https://img.shields.io/badge/Télécharger-1.0.0-17C0E4?style=for-the-badge&logo=windows&logoColor=white" alt="Télécharger NCore Control 1.0.0">
   </a>
-  <a href="https://github.com/boubeur/ncore-framework/releases/tag/control-v1.0.0">
+  <a href="https://github.com/ncore-framework-official/ncore-control/releases/tag/control-v1.0.0">
     <img src="https://img.shields.io/badge/Release-stable-2EA043?style=for-the-badge" alt="Stable release">
   </a>
   <a href="https://discord.gg/Ey4dn4Cbqj">
@@ -19,7 +19,7 @@
 </p>
 
 > **Version publique actuelle : NCore Control 1.0.0 — Windows x64.**  
-> La release 1.0.0 reste hébergée sur le dépôt public historique afin de préserver toutes les URL déjà distribuées et le canal de mise à jour existant.
+> La release officielle est désormais publiée dans ce dépôt. La release historique reste également disponible à son ancienne URL afin de préserver tous les liens déjà distribués et le canal de mise à jour existant.
 
 ## Français
 
@@ -41,7 +41,7 @@ Fonctions livrées dans la version 1.0.0 :
 
 ### Installation
 
-1. Téléchargez **[NCore-Control-Setup-1.0.0.exe](https://github.com/boubeur/ncore-framework/releases/download/control-v1.0.0/NCore-Control-Setup-1.0.0.exe)**.
+1. Téléchargez **[NCore-Control-Setup-1.0.0.exe](https://github.com/ncore-framework-official/ncore-control/releases/download/control-v1.0.0/NCore-Control-Setup-1.0.0.exe)**.
 2. Lancez l'installateur Windows.
 3. Démarrez NCore Control depuis son raccourci Bureau ou les applications installées.
 4. Choisissez le type de serveur et la destination, vérifiez la destination puis lancez l'installation.
@@ -72,7 +72,7 @@ Le fichier ZIP :
 
 est le payload technique utilisé par le canal de mise à jour et **n'est pas le parcours normal d'installation manuelle**.
 
-Les URL historiques du canal 1.0.0 restent volontairement conservées afin de ne pas casser les installations existantes.
+Les URL historiques du canal 1.0.0 restent volontairement conservées afin de ne pas casser les installations existantes. La distribution utilisateur de référence est désormais la release officielle de ce dépôt : https://github.com/ncore-framework-official/ncore-control/releases/tag/control-v1.0.0.
 
 ### Intégrité des téléchargements
 
@@ -98,7 +98,7 @@ La version 1.0.0 de NCore Control installe et gère des serveurs NANOS standards
 
 - **Discord officiel :** https://discord.gg/Ey4dn4Cbqj
 - **Organisation publique NCore :** https://github.com/ncore-framework-official
-- **Release 1.0.0 :** https://github.com/boubeur/ncore-framework/releases/tag/control-v1.0.0
+- **Release 1.0.0 :** https://github.com/ncore-framework-official/ncore-control/releases/tag/control-v1.0.0
 - **Support public :** voir [SUPPORT.md](SUPPORT.md)
 
 ---
@@ -124,9 +124,11 @@ Main features:
 
 Automatic installation of **NCore Framework** is not enabled in NCore Control 1.0.0.
 
-For normal installation, use **[NCore-Control-Setup-1.0.0.exe](https://github.com/boubeur/ncore-framework/releases/download/control-v1.0.0/NCore-Control-Setup-1.0.0.exe)**.
+For normal installation, use **[NCore-Control-Setup-1.0.0.exe](https://github.com/ncore-framework-official/ncore-control/releases/download/control-v1.0.0/NCore-Control-Setup-1.0.0.exe)**.
 
 The ZIP archive is the technical update payload, not the normal manual installation path.
+
+The official organization release is https://github.com/ncore-framework-official/ncore-control/releases/tag/control-v1.0.0. The original historical release remains available for compatibility with links and update channels already distributed.
 
 Official SHA-256 values are listed in [CHECKSUMS.txt](CHECKSUMS.txt).
 
