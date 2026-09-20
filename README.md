@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/branding/ncore-control-official.jpg" alt="NCore Control official logo" width="380">
+  <img src="assets/branding/ncore-control-official.jpg" alt="NCore Control official logo" width="460">
 </p>
 
 <h1 align="center">NCore Control</h1>
@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/Télécharger-1.0.0-17C0E4?style=for-the-badge&logo=windows&logoColor=white" alt="Télécharger NCore Control 1.0.0">
   </a>
   <a href="https://github.com/ncore-framework-official/ncore-control/releases/tag/control-v1.0.0">
-    <img src="https://img.shields.io/badge/Release-stable-2EA043?style=for-the-badge" alt="Stable release">
+    <img src="https://img.shields.io/badge/Release-Stable-2EA043?style=for-the-badge" alt="Stable release">
   </a>
   <a href="https://discord.gg/Ey4dn4Cbqj">
     <img src="https://img.shields.io/badge/Discord-Officiel-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord officiel">
@@ -66,23 +66,11 @@ Les limites CPU, mémoire, disque et réseau restent celles de la machine hôte.
 
 NCore Control 1.0.0 possède un canal de mise à jour stable.
 
-Le fichier ZIP :
-
-`NCore-Control-1.0.0-win-x64.zip`
-
-est le payload technique utilisé par le canal de mise à jour et **n'est pas le parcours normal d'installation manuelle**.
-
-Le canal public officiel de NCore Control est désormais hébergé dans l'organisation `ncore-framework-official`.
+Le fichier ZIP `NCore-Control-1.0.0-win-x64.zip` est le payload technique utilisé par le canal de mise à jour et **n'est pas le parcours normal d'installation manuelle**.
 
 ### Intégrité des téléchargements
 
-Les empreintes SHA-256 officielles de la release sont publiées dans **[CHECKSUMS.txt](CHECKSUMS.txt)** afin de permettre la vérification des fichiers téléchargés.
-
-### NCore Framework
-
-NCore Control et NCore Framework sont deux produits liés mais distincts.
-
-La version 1.0.0 de NCore Control installe et gère des serveurs NANOS standards. L'installation automatique du Framework RP NCore n'est pas encore activée dans cette release.
+Les empreintes SHA-256 officielles de la release sont publiées dans **[CHECKSUMS.txt](CHECKSUMS.txt)**.
 
 ### Support
 
@@ -117,8 +105,6 @@ Automatic installation of **NCore Framework** is not enabled in NCore Control 1.
 For normal installation, use **[NCore-Control-Setup-1.0.0.exe](https://github.com/ncore-framework-official/ncore-control/releases/download/control-v1.0.0/NCore-Control-Setup-1.0.0.exe)**.
 
 The ZIP archive is the technical update payload, not the normal manual installation path.
-
-Official releases and downloads are published from the `ncore-framework-official/ncore-control` repository.
 
 Official SHA-256 values are listed in [CHECKSUMS.txt](CHECKSUMS.txt).
 
