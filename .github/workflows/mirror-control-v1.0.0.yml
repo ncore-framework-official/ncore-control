@@ -1,0 +1,132 @@
+name: Mirror NCore Control 1.0.0 release
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  mirror-release:
+    if: github.event.head_commit.message == 'release: mirror NCore Control 1.0.0 to official repository'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download historical release assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p release-assets
+
+          curl --fail --location --retry 3 \
+            --output release-assets/NCore-Control-Setup-1.0.0.exe \
+            "https://github.com/boubeur/ncore-framework/releases/download/control-v1.0.0/NCore-Control-Setup-1.0.0.exe"
+
+          curl --fail --location --retry 3 \
+            --output release-assets/NCore-Control-1.0.0-win-x64.zip \
+            "https://github.com/boubeur/ncore-framework/releases/download/control-v1.0.0/NCore-Control-1.0.0-win-x64.zip"
+
+          curl --fail --location --retry 3 \
+            --output release-assets/LICENSE-NCORE-CONTROL.txt \
+            "https://github.com/boubeur/ncore-framework/releases/download/control-v1.0.0/LICENSE-NCORE-CONTROL.txt"
+
+          curl --fail --location --retry 3 \
+            --output release-assets/THIRD-PARTY-NOTICES.txt \
+            "https://github.com/boubeur/ncore-framework/releases/download/control-v1.0.0/THIRD-PARTY-NOTICES.txt"
+
+      - name: Verify official SHA-256 checksums
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd release-assets
+          echo "5bf8e8a47df6d45272844edf2e5fb5410e93977b2af7b909def1c8b3f4069f06  NCore-Control-Setup-1.0.0.exe" | sha256sum -c -
+          echo "f12989e4ea1598225f2ac0b41f03f470b00d2dfd55e4c6a84ed9b1a3cde48a72  NCore-Control-1.0.0-win-x64.zip" | sha256sum -c -
+          echo "aa1f980cffc51ffd32afa23d608c58994d4d074c537d4f86e6de7fa77cefaea6  LICENSE-NCORE-CONTROL.txt" | sha256sum -c -
+          echo "ad6707792696ae745f036d8d674e7cb880769230e9604f4e56ad133f5da89f13  THIRD-PARTY-NOTICES.txt" | sha256sum -c -
+
+      - name: Prepare release notes
+        shell: bash
+        run: |
+          cat > RELEASE_NOTES.md <<'EOF'
+          # NCore Control 1.0.0
+
+          First public stable release of NCore Control for Windows.
+
+          This release is the official organization mirror of the original NCore Control 1.0.0 publication. The historical release remains available at its original URL so existing links and update channels continue to work.
+
+          ## English
+
+          NCore Control provides a dedicated interface for installing and managing multiple NANOS / nanos world servers.
+
+          ### Main features
+
+          - Install a standard NANOS / nanos world server
+          - Manage multiple independent server instances
+          - Start and stop servers
+          - Create a dedicated desktop shortcut for each managed server
+          - Remove a managed server and its shortcut in a targeted way
+          - Manage NCore Control updates
+          - Use a visible Windows installation and uninstallation experience
+          - Preserve existing NANOS servers and their data when NCore Control is uninstalled
+
+          Automatic installation of NCore Framework is **not enabled in this first public release**.
+
+          For normal installation, download:
+
+          `NCore-Control-Setup-1.0.0.exe`
+
+          The ZIP file `NCore-Control-1.0.0-win-x64.zip` is the technical payload used by the NCore Control update channel and is not the normal manual installation path.
+
+          ## Français
+
+          Première version publique stable de NCore Control pour Windows.
+
+          NCore Control fournit une interface dédiée pour installer et gérer plusieurs serveurs NANOS / nanos world.
+
+          ### Fonctions principales
+
+          - Installer un serveur NANOS / nanos world standard
+          - Gérer plusieurs instances serveur indépendantes
+          - Démarrer et arrêter les serveurs
+          - Créer un raccourci Bureau dédié pour chaque serveur géré
+          - Supprimer de manière ciblée un serveur géré et son raccourci
+          - Gérer les mises à jour de NCore Control
+          - Utiliser une installation et une désinstallation Windows avec interface visible
+          - Conserver les serveurs NANOS existants et leurs données lors de la désinstallation de NCore Control
+
+          L'installation automatique de NCore Framework **n'est pas activée dans cette première version publique**.
+
+          Pour une installation normale, téléchargez :
+
+          `NCore-Control-Setup-1.0.0.exe`
+
+          Le fichier ZIP `NCore-Control-1.0.0-win-x64.zip` est le payload technique utilisé par le canal de mise à jour de NCore Control et ne constitue pas le parcours normal d'installation manuelle.
+
+          ---
+
+          Original historical publication:
+          https://github.com/boubeur/ncore-framework/releases/tag/control-v1.0.0
+          EOF
+
+      - name: Publish official organization release mirror
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if gh release view control-v1.0.0 >/dev/null 2>&1; then
+            echo "Release control-v1.0.0 already exists; nothing to do."
+            exit 0
+          fi
+
+          gh release create control-v1.0.0 \
+            release-assets/NCore-Control-Setup-1.0.0.exe \
+            release-assets/NCore-Control-1.0.0-win-x64.zip \
+            release-assets/LICENSE-NCORE-CONTROL.txt \
+            release-assets/THIRD-PARTY-NOTICES.txt \
+            --title "NCore Control V1.0.0" \
+            --notes-file RELEASE_NOTES.md \
+            --target "${GITHUB_SHA}"
