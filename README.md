@@ -76,17 +76,7 @@ Les URL historiques du canal 1.0.0 restent volontairement conservées afin de ne
 
 ### Intégrité des téléchargements
 
-SHA-256 officiels de la release 1.0.0 :
-
-```text
-NCore-Control-Setup-1.0.0.exe
-5bf8e8a47df6d45272844edf2e5fb5410e93977b2af7b909def1c8b3f4069f06
-
-NCore-Control-1.0.0-win-x64.zip
-f12989e4ea1598225f2ac0b41f03f470b00d2dfd55e4c6a84ed9b1a3cde48a72
-```
-
-Voir également [CHECKSUMS.txt](CHECKSUMS.txt).
+Les empreintes SHA-256 officielles de la release sont publiées dans **[CHECKSUMS.txt](CHECKSUMS.txt)** afin de permettre la vérification des fichiers téléchargés.
 
 ### NCore Framework
 
@@ -134,11 +124,11 @@ Official SHA-256 values are listed in [CHECKSUMS.txt](CHECKSUMS.txt).
 
 ---
 
-## Public / private boundary
+## Public distribution
 
-This repository is an **official public NCore distribution and documentation surface**.
+This repository contains only **approved public NCore Control documentation, legal notices and distribution information**.
 
-The private NCore Control development repository, internal GDDs, qualification material, build tooling, secrets and other non-public implementation material are not published here.
+Internal development material is not published here.
 
 ## Licensing / Licences
 
