@@ -13,4 +13,4 @@ THIRD-PARTY-NOTICES.txt
 ad6707792696ae745f036d8d674e7cb880769230e9604f4e56ad133f5da89f13
 
 Release:
-https://github.com/boubeur/ncore-framework/releases/tag/control-v1.0.0
+https://github.com/ncore-framework-official/ncore-control/releases/tag/control-v1.0.0
