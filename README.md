@@ -19,7 +19,7 @@
 </p>
 
 > **Version publique actuelle : NCore Control 1.0.0 — Windows x64.**  
-> La release officielle est désormais publiée dans ce dépôt. La release historique reste également disponible à son ancienne URL afin de préserver tous les liens déjà distribués et le canal de mise à jour existant.
+> Les téléchargements, la documentation et les releases officielles de NCore Control sont publiés dans ce dépôt.
 
 ## Français
 
@@ -72,7 +72,7 @@ Le fichier ZIP :
 
 est le payload technique utilisé par le canal de mise à jour et **n'est pas le parcours normal d'installation manuelle**.
 
-Les URL historiques du canal 1.0.0 restent volontairement conservées afin de ne pas casser les installations existantes. La distribution utilisateur de référence est désormais la release officielle de ce dépôt : https://github.com/ncore-framework-official/ncore-control/releases/tag/control-v1.0.0.
+Le canal public officiel de NCore Control est désormais hébergé dans l'organisation `ncore-framework-official`.
 
 ### Intégrité des téléchargements
 
@@ -118,7 +118,7 @@ For normal installation, use **[NCore-Control-Setup-1.0.0.exe](https://github.co
 
 The ZIP archive is the technical update payload, not the normal manual installation path.
 
-The official organization release is https://github.com/ncore-framework-official/ncore-control/releases/tag/control-v1.0.0. The original historical release remains available for compatibility with links and update channels already distributed.
+Official releases and downloads are published from the `ncore-framework-official/ncore-control` repository.
 
 Official SHA-256 values are listed in [CHECKSUMS.txt](CHECKSUMS.txt).
 
