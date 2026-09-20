@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "channel": "stable",
+  "rid": "win-x64",
+  "version": "1.0.0",
+  "downloadUrl": "https://github.com/ncore-framework-official/ncore-control/releases/download/control-v1.0.0/NCore-Control-1.0.0-win-x64.zip",
+  "sha256": "F12989E4EA1598225F2AC0B41F03F470B00D2DFD55E4C6A84ED9B1A3CDE48A72",
+  "sizeBytes": 289616692,
+  "minimumLauncherVersion": "1.0.0",
+  "summary": "NCore Control 1.0.0 — first official NANOS/nanos world server management release."
+}
