@@ -118,12 +118,13 @@ jobs:
         run: |
           set -euo pipefail
 
-          if gh release view control-v1.0.0 >/dev/null 2>&1; then
+          if gh release view control-v1.0.0 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
             echo "Release control-v1.0.0 already exists; nothing to do."
             exit 0
           fi
 
           gh release create control-v1.0.0 \
+            --repo "$GITHUB_REPOSITORY" \
             release-assets/NCore-Control-Setup-1.0.0.exe \
             release-assets/NCore-Control-1.0.0-win-x64.zip \
             release-assets/LICENSE-NCORE-CONTROL.txt \
