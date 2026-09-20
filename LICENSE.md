@@ -23,7 +23,7 @@ Ces permissions n'autorisent pas à republier ou vendre la documentation comme u
 
 NCore Control est régi par sa licence produit applicable.
 
-La release publique historique `control-v1.0.0` reste régie par la licence effectivement distribuée avec ses artefacts. Une copie de référence est conservée dans :
+La release publique `control-v1.0.0` reste régie par la licence effectivement distribuée avec ses artefacts. Une copie de référence est conservée dans :
 
 `licenses/NCore-Control-1.0.0-LICENSE.txt`
 
@@ -65,7 +65,7 @@ These permissions do not authorize republishing or selling the documentation as 
 
 NCore Control is governed by its applicable product license.
 
-Historical public release `control-v1.0.0` remains governed by the license actually distributed with its artifacts. A reference copy is retained at:
+Public release `control-v1.0.0` remains governed by the license actually distributed with its artifacts. A reference copy is retained at:
 
 `licenses/NCore-Control-1.0.0-LICENSE.txt`
 
