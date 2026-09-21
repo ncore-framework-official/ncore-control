@@ -16,6 +16,9 @@
   <a href="https://discord.gg/Ey4dn4Cbqj">
     <img src="https://img.shields.io/badge/Discord-Officiel-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord officiel">
   </a>
+  <a href="https://ko-fi.com/ncoreframework">
+    <img src="https://img.shields.io/badge/Ko--fi-Soutenir_NCore-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white" alt="Soutenir NCore sur Ko-fi">
+  </a>
 </p>
 
 > **Version publique actuelle : NCore Control 1.0.0 — Windows x64.**  
@@ -77,6 +80,7 @@ Les empreintes SHA-256 officielles de la release sont publiées dans **[CHECKSUM
 - **Discord officiel :** https://discord.gg/Ey4dn4Cbqj
 - **Organisation publique NCore :** https://github.com/ncore-framework-official
 - **Release 1.0.0 :** https://github.com/ncore-framework-official/ncore-control/releases/tag/control-v1.0.0
+- **Ko-fi officiel :** https://ko-fi.com/ncoreframework
 - **Support public :** voir [SUPPORT.md](SUPPORT.md)
 
 ---
