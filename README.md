@@ -73,7 +73,7 @@ Les empreintes SHA-256 officielles de la release sont publiées dans **[CHECKSUM
 
 - **Discord officiel :** https://discord.gg/Ey4dn4Cbqj
 - **Organisation publique NCore :** https://github.com/ncore-framework-official
-- **Release 1.0.0 :** https://github.com/ncore-framework-official/ncore-control/releases/tag/control-v1.0.0
+- **Historique 1.0.0 :** https://github.com/ncore-framework-official/ncore-control/releases/tag/control-v1.0.0
 - **Ko-fi officiel :** https://ko-fi.com/ncoreframework
 - **Support public :** voir [SUPPORT.md](SUPPORT.md)
 
