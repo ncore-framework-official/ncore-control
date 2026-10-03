@@ -7,11 +7,8 @@
 <p align="center"><strong>Application Windows officielle pour installer et gérer des serveurs NANOS / nanos world.</strong></p>
 
 <p align="center">
-  <a href="https://github.com/ncore-framework-official/ncore-control/releases/download/control-v1.0.0/NCore-Control-Setup-1.0.0.exe">
-    <img src="https://img.shields.io/badge/Télécharger-1.0.0-17C0E4?style=for-the-badge&logo=windows&logoColor=white" alt="Télécharger NCore Control 1.0.0">
-  </a>
-  <a href="https://github.com/ncore-framework-official/ncore-control/releases/tag/control-v1.0.0">
-    <img src="https://img.shields.io/badge/Release-Stable-2EA043?style=for-the-badge" alt="Stable release">
+  <a href="https://github.com/ncore-framework-official/ncore-control/releases">
+    <img src="https://img.shields.io/badge/Nouvelle_release-En_qualification-F5A800?style=for-the-badge&logo=windows&logoColor=white" alt="Nouvelle release NCore Control en qualification">
   </a>
   <a href="https://discord.gg/Ey4dn4Cbqj">
     <img src="https://img.shields.io/badge/Discord-Officiel-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord officiel">
@@ -21,8 +18,8 @@
   </a>
 </p>
 
-> **Version publique actuelle : NCore Control 1.0.0 — Windows x64.**  
-> Les téléchargements, la documentation et les releases officielles de NCore Control sont publiés dans ce dépôt.
+> **Distribution en cours d'actualisation.**  
+> NCore Control 1.0.0 reste une release historique. Pour une **nouvelle installation**, attendez la prochaine release officielle actuellement en qualification. Les installations existantes ne sont pas concernées par cette recommandation.
 
 ## Français
 
@@ -44,10 +41,9 @@ Fonctions livrées dans la version 1.0.0 :
 
 ### Installation
 
-1. Téléchargez **[NCore-Control-Setup-1.0.0.exe](https://github.com/ncore-framework-official/ncore-control/releases/download/control-v1.0.0/NCore-Control-Setup-1.0.0.exe)**.
-2. Lancez l'installateur Windows.
-3. Démarrez NCore Control depuis son raccourci Bureau ou les applications installées.
-4. Choisissez le type de serveur et la destination, vérifiez la destination puis lancez l'installation.
+Une nouvelle release de NCore Control est actuellement en qualification.
+
+Pour une **nouvelle installation**, utilisez uniquement la prochaine release officielle lorsqu'elle sera publiée dans ce dépôt. La release 1.0.0 est conservée comme historique et n'est plus recommandée pour une nouvelle installation.
 
 L'installation automatique de **NCore Framework** n'est pas activée dans NCore Control 1.0.0.
 
@@ -67,9 +63,7 @@ Les limites CPU, mémoire, disque et réseau restent celles de la machine hôte.
 
 ### Mises à jour
 
-NCore Control 1.0.0 possède un canal de mise à jour stable.
-
-Le fichier ZIP `NCore-Control-1.0.0-win-x64.zip` est le payload technique utilisé par le canal de mise à jour et **n'est pas le parcours normal d'installation manuelle**.
+NCore Control 1.0.0 conserve son état historique. Le prochain parcours officiel d'installation et de mise à jour sera documenté lors de la publication de la nouvelle release.
 
 ### Intégrité des téléchargements
 
@@ -89,9 +83,9 @@ Les empreintes SHA-256 officielles de la release sont publiées dans **[CHECKSUM
 
 **NCore Control** is the official Windows application for installing and managing NANOS / nanos world servers.
 
-### Current public release
+### Public distribution
 
-**NCore Control 1.0.0** is the first public stable release for Windows x64.
+A new NCore Control release is currently being qualified. **NCore Control 1.0.0 is retained as a historical release and is no longer recommended for new installations.** Existing installations are not affected by this recommendation.
 
 Main features:
 
@@ -106,9 +100,7 @@ Main features:
 
 Automatic installation of **NCore Framework** is not enabled in NCore Control 1.0.0.
 
-For normal installation, use **[NCore-Control-Setup-1.0.0.exe](https://github.com/ncore-framework-official/ncore-control/releases/download/control-v1.0.0/NCore-Control-Setup-1.0.0.exe)**.
-
-The ZIP archive is the technical update payload, not the normal manual installation path.
+For a **new installation**, wait for the next official release published in this repository. Do not use 1.0.0 as the recommended new-install path.
 
 Official SHA-256 values are listed in [CHECKSUMS.txt](CHECKSUMS.txt).
 
